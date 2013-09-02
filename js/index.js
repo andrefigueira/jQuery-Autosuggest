@@ -8,7 +8,7 @@ $(function(){
 				
 			$('[rel=#search-query]').find('.autosuggest-result').click(function(){
 				
-				window.location = $(this).data('permalink');
+				window.location = $(this).data('title');
 				
 			});
 			

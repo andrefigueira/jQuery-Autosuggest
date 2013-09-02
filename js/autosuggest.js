@@ -17,7 +17,7 @@
 	var defaults = {
 		ajaxUrl: '',
 		classes: '',
-		width: 416,
+		width: 200,
 		height: null,
 		callback: function(){},
 		ajaxDelay: 0
@@ -122,7 +122,7 @@
 							for(var i = 0; i < data.result.length; i++) 
 							{
 							
-								html = html + '<div class="autosuggest-result autosuggest-result-' + data.result[i].type + ' clearfix" data-id="' + data.result[i].id + '" data-title="' + data.result[i].title + '">' +
+								html = html + '<div class="autosuggest-result autosuggest-result clearfix" data-id="' + data.result[i].id + '" data-title="' + data.result[i].title + '">' +
 								'<h1>' + data.result[i].title + '</h1>' +
 								'</div>';
 							    
