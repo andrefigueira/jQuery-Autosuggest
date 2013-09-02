@@ -1,0 +1,53 @@
+.autosuggest-results {
+	height: auto;
+	width: 416px;
+	background: #FFF;
+	position: absolute;
+	margin: -11px 0 0 0;
+	border-radius: 0 0 2px 2px;
+	-o-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	-webkit-border-radius: 0 0 2px 2px;
+	z-index: 99;
+	border: 1px solid #CCC;
+	border-top: none;
+}
+
+	.autosuggest-results .autosuggest-loader {
+		width: 55px;
+		height: 30px;
+		background: url('images/ajax-loader-horizontal.gif') center center no-repeat;
+		margin: 0 auto;
+	}
+	
+	.autosuggest-results .autosuggest-result {
+		display: block;
+		padding: 10px;
+		cursor: pointer;
+	}	
+	
+		.autosuggest-results .autosuggest-result:hover {
+			background: #F9F9F9;
+		}	
+		
+		.autosuggest-results .autosuggest-result img {
+			display: block;
+			float: left;
+			width: 50px;
+		}
+		
+		.autosuggest-results .autosuggest-result-category h1 { padding-top: 12px!important;}
+	
+		.autosuggest-results .autosuggest-result h1 {
+			display: block;
+			font-size: 14px;
+			font-weight: normal;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			float: left;
+			width: 321px;
+			padding: 7px 10px 7px 15px;
+		}	
+		
+			.autosuggest-results .autosuggest-result h1 span { font-size: 12px; color: #999;}
